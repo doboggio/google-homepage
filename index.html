@@ -3,15 +3,16 @@
 <head><title>Google</title>
 <link rel="stylesheet" href="style.css">
 <link rel="shortcut icon" type="image/x-icon" href="g_pink.ico">
+<script src="script.js"></script>
 </head>
 <body>
     <div class="content">
         <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
         <form>
-            <input type="text">
+            <input type="text" id="searchfield" placeholder="Search">
             <br/><br>
-            <button type="submit">Google Search</button>
-        </form>
+            <input id="searchbutton" onclick="googleSearch();" type="button" value="Search"></button>
+        <!--</form>-->
     </div>
 </body>
 </html>

@@ -8,3 +8,18 @@
     margin-right: auto;
     width: 50%;
 }
+input{
+    width:272px;
+    height:24px;
+    font-size: 18px;
+}
+#searchbutton{
+    width: 272px;
+    height: 36px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2c2c2c;
+    background-color:#eeeeee ;
+    border-width: 0px;
+    border-radius: 8px;
+}
