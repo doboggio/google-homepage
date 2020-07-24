@@ -4,7 +4,7 @@ function googleSearch(){
     query = query.trim();
     query = query.replace(" ", "+");
     query = escape(query);
-    console.log(query);
+    if(query==="") query = "nothing";
     url = "https://www.google.com/search?q="+query;
     window.open(url, "_blank");
 }
